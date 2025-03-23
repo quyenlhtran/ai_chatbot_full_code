@@ -9,6 +9,7 @@ Use this project to learn how to enhance any website with an intelligent chat as
 ---
 
 ## 📁 Project Structure
+```
 ├── .env           # Contains your OpenAI API key (keep this secret)
 ├── README.md      # Project documentation
 ├── index.html     # Main front-end HTML file
@@ -16,6 +17,7 @@ Use this project to learn how to enhance any website with an intelligent chat as
 ├── server.py      # Flask back-end server
 ├── style.css      # CSS styles for the site and chatbot
 ├── test.py        # (Optional) Script to list available OpenAI models
+```
 
 ---
 
