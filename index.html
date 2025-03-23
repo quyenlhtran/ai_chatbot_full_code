@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>MyShop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Top Navigation -->
+    <header class="navbar">
+        <div class="logo">MyShop</div>
+        <input type="text" class="search-bar" placeholder="Search for anything..." />
+        <div class="nav-links">
+            <span>Hello</span>
+            <span>Orders</span>
+            <span>Cart 🛒</span>
+        </div>
+    </header>
+
+    <!-- Promo Banner -->
+    <section class="banner">
+        <h2>🔥 Big Spring Sale - Up to 40% off starts March 25</h2>
+        <p>Shop deals now</p>
+    </section>
+
+    <!-- Product Sections -->
+    <section class="products-row">
+        <h3>📌 Pick up where you left off</h3>
+        <div class="product-list">
+            <div class="product-item">🎒 Backpack</div>
+            <div class="product-item">💻 Laptop</div>
+            <div class="product-item">📱 Phone</div>
+        </div>
+    </section>
+
+    <section class="products-row">
+        <h3>🔁 Buy Again</h3>
+        <div class="product-list">
+            <div class="product-item">🍜 Instant Noodles</div>
+            <div class="product-item">💊 Vitamins</div>
+            <div class="product-item">🧴 Skincare</div>
+        </div>
+    </section>
+
+    <!-- Chatbot Button -->
+    <button id="chat-button">💬 Chat</button>
+
+    <!-- Chatbot Window -->
+    <div id="chat-container" class="hidden">
+        <div id="chat-header">
+            <span>🧠 Assistant</span>
+            <div>
+                <button id="minimize-chat">➖</button>
+                <button id="close-chat">✖</button>
+            </div>
+        </div>
+        <div id="chat-window"></div>
+        <div class="chat-input-area">
+            <input type="text" id="user-input" placeholder="Type something..." />
+            <button id="send-message">Send</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
